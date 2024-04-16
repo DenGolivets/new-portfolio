@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="url(#gradient)" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round">
+ <defs>
+    <radialGradient id="gradient" cx="50%" cy="50%" r="50%" fx="50%" fy="50%">
+      <stop offset="0%" stop-color="#FF0000"> <!-- Выраженный красный -->
+        <animate attributeName="stop-color" values="#FF0000;#FFA500;#FF0000" dur="5s" repeatCount="indefinite" />
+      </stop>
+      <stop offset="100%" stop-color="#FFA500"> <!-- Оранжевый -->
+        <animate attributeName="stop-color" values="#FFA500;#FF0000;#FFA500" dur="5s" repeatCount="indefinite" />
+      </stop>
+    </radialGradient>
+ </defs>
+ <path stroke="none" d="M0 0h24v24H0z"/>
+ <rect x="4" y="4" width="16" height="16" rx="4" />
+ <circle cx="12" cy="12" r="3" />
+ <line x1="16.5" y1="7.5" x2="16.5" y2="7.501" />
+</svg>
