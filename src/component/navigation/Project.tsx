@@ -10,9 +10,9 @@ const Project = ({ headline, image, text, tags, link }:
             <Image 
               src={image}
               alt={text}
-              width={100}
-              height={100}
-              className="object-contain max-h-full w-full"
+              width={200}
+              height={200}
+              className="object-contain h-full w-full"
             />
           </div>
           <div className="p-4">
