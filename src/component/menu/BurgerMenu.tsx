@@ -32,7 +32,13 @@ const BurgerMenu = () => {
             {isMenuOpen ? <Close /> : <Burger />}
         </div>
         {isMenuOpen ?
-            <motion.div initial="visible" animate="hidden" variants={variants} className="flex justify-between pt-20 fixed flex-col text-white text-4xl pl-5 bg-black backdrop-blur-md bg-opacity-40 w-full h-full z-40">
+            <motion.div 
+                initial="visible" 
+                animate="hidden" 
+                variants={variants} 
+                className="flex justify-between pt-20 fixed flex-col text-white text-4xl pl-5 bg-black 
+                backdrop-blur-md bg-opacity-40 w-full h-full z-40"
+            >
                 <Menu />
                 <SocialMedia size={42} />
             </motion.div> : <></>}

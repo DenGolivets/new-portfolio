@@ -1,13 +1,20 @@
 import data from '@/data/data'
 import React from 'react'
 import Project from '../navigation/Project'
+import Image from 'next/image'
 
 type Props = {}
 
 const Projects = (props: Props) => {
   return (
     <div id='Projects' className='flex flex-col font-poppins bg-gradient-to-r from-gradientRight to-gradientLeft'>
-      <img className='w-full h-44' src="/transitions/transition_grey.svg" alt="transition" />
+      <Image 
+        src="/transitions/transition_grey.svg"
+        alt="transition"
+        width={100}
+        height={176}
+        className='w-full h-44'
+      />
       <p className='flex text-4xl mb-8 mt-8 justify-center text-lightcyan font-bold uppercase'>
         Featured Projects
       </p>

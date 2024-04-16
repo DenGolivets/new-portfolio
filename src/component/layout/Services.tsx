@@ -1,11 +1,18 @@
 import Service from "@/static/Service";
 import ContactBtn from "../menu/elements/ContactBtn";
 import './services.css'
+import Image from "next/image";
 
 const Services = () => {
   return (
     <div id="Services" className="flex text-white min-h-full flex-col items-center bg-slate-800 font-poppins">
-      <img className="w-full h-44" src="/transitions/transition_gradient.svg" alt="transition" />
+      <Image 
+        src="/transitions/transition_gradient.svg"
+        alt="transition"
+        width={100}
+        height={176}
+        className="w-full h-44"
+      />
       <p className="flex text-4xl mb-8 mt-8 justify-center font-bold text-lightcyan uppercase">
         Services
       </p>

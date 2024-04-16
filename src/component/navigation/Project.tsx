@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Tag from "../../static/Tag";
 
 const Project = ({ headline, image, text, tags, link }: 
@@ -6,7 +7,13 @@ const Project = ({ headline, image, text, tags, link }:
     <a href={link} aria-label={text} target="_blank">
       <div className="flex flex-col transition-all hover:scale-105 scale-100 bg-opacity-20 bg-black rounded-lg aspect-square max-w-96 max-h-96 m-3 text-white">
           <div className="rounded-t-lg w-fit h-fit overflow-hidden">
-            <img className="object-contain max-h-64h-full w-full" alt={text} src={image}/>
+            <Image 
+              src={image}
+              alt={text}
+              width={100}
+              height={100}
+              className="object-contain max-h-full w-full"
+            />
           </div>
           <div className="p-4">
           <div className="text-xl font-medium mb-4">
