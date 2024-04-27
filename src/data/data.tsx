@@ -1,5 +1,6 @@
 const shopotube = "/images/Shopotube.jpg";
 const landing = "/images/Landing.jpg";
+const carrental = "/images/CarRental.jpg";
 
 const data = [
     {
@@ -15,6 +16,13 @@ const data = [
       link: "https://collab-test-six.vercel.app", 
       tags: ["Next JS", "Typescript", "Tailwind CSS"], 
       text: "A single-page application(landing)."
+    },
+    {
+      title: "Car Rental Landing Page", 
+      image: carrental, 
+      link: "https://carshop-six.vercel.app/", 
+      tags: ["Next JS", "React JS", "JavaScript", "Tailwind CSS", "framer-motion"], 
+      text: "A Car rental single-page with ui/ux (count-up, animated)."
     },
 ]
 export default data;
