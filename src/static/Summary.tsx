@@ -1,7 +1,8 @@
 const Summary = () => {
   return (
-  <div className="relative">
-    <p className="text-4xl mb-8 uppercase font-poppins text-lightcyan absolute -top-[4rem] -right-[10rem]">
+  <div className="relative mobile:pt-20">
+    <p className="text-4xl mb-8 uppercase font-poppins text-lightcyan desktop:absolute desktop:-top-[4rem] 
+    desktop:-right-[10rem] mobile:flex mobile:items-center mobile:justify-center">
       About me
     </p>
       <article className="desktop:text-xl mobile:text-md font-poppins" itemScope itemType="https://schema.org/author">

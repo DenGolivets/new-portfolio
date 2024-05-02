@@ -27,8 +27,14 @@ const BurgerMenu = () => {
         };
     }, [isMenuOpen]);
 
-    return (<div className="desktop:hidden">
-        <div className="fixed top-0 right-0 p-2 z-50" onClick={toggleMenu}>
+    return (
+    <div className="desktop:hidden back">
+        {/* <div className="fixed top-0 right-0 p-2 z-50" onClick={toggleMenu}> */}
+        <div 
+            className={`burger-menu-button ${isMenuOpen ? '' : 'w-full'}`} 
+            style={{ backgroundColor: isMenuOpen ? 'transparent' : 'rgba(0, 0, 0, 0.5)' }}
+            onClick={toggleMenu}
+        >
             {isMenuOpen ? <Close /> : <Burger />}
         </div>
         {isMenuOpen ?
@@ -42,7 +48,8 @@ const BurgerMenu = () => {
                 <Menu />
                 <SocialMedia size={42} />
             </motion.div> : <></>}
-    </div>);
+    </div>
+    );
 }
 
 export default BurgerMenu;

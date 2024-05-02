@@ -21,3 +21,16 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.burger-menu-button {
+  position: fixed;
+  top: 0;
+  right: 0;
+  z-index: 50;
+  padding: 2rem;
+}
+
+.back {
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 0.5rem;
+}

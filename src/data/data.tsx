@@ -32,5 +32,12 @@ const data = [
       tags: ["Next JS", "Typescript", "Tailwind CSS"], 
       text: "A single-page application(landing)."
     },
+    {
+      title: "Agency Landing Page", 
+      image: landing, 
+      link: "https://collab-test-six.vercel.app", 
+      tags: ["Next JS", "Typescript", "Tailwind CSS", "AOS", "UI"], 
+      text: "Agency work landing page, with amazing ui buttons, animated elements."
+    },
 ]
 export default data;
