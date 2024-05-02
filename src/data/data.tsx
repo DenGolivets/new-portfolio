@@ -2,6 +2,7 @@ const shopotube = "/images/Shopotube.jpg";
 const landing = "/images/Landing.jpg";
 const carrental = "/images/CarRental.jpg";
 const coffecafe = "/images/CoffeCafe.jpg";
+const agency = "/images/Agency.jpg"
 
 const data = [
     {
@@ -34,8 +35,8 @@ const data = [
     },
     {
       title: "Agency Landing Page", 
-      image: landing, 
-      link: "https://collab-test-six.vercel.app", 
+      image: agency, 
+      link: "https://work-agency.vercel.app", 
       tags: ["Next JS", "Typescript", "Tailwind CSS", "AOS", "UI"], 
       text: "Agency work landing page, with amazing ui buttons, animated elements."
     },
